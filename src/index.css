@@ -1,0 +1,72 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-tolex: #1c1713;
+  --color-cab: #241d18;
+  --color-grille: #3a3029;
+  --color-tube: #ffb547;
+  --color-tube-dim: #b9822f;
+  --color-parchment: #ece3cf;
+  --color-chrome: #b8b4ab;
+  --color-oxblood: #a3392b;
+
+  --font-display: 'Big Shoulders Display', 'Arial Narrow', sans-serif;
+  --font-sans: 'Instrument Sans', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6.5rem;
+    background: var(--color-tolex);
+    color-scheme: dark;
+  }
+  body {
+    background: var(--color-tolex);
+    color: var(--color-parchment);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection {
+    background: var(--color-tube);
+    color: var(--color-tolex);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-tube);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* textura sutil de tolex no fundo */
+.tolex {
+  background-color: var(--color-tolex);
+  background-image:
+    radial-gradient(ellipse 80% 60% at 50% 45%, rgb(255 181 71 / 0.07), transparent 70%),
+    repeating-linear-gradient(45deg, rgb(255 255 255 / 0.012) 0 2px, transparent 2px 5px);
+}
+
+@utility vibrate {
+  animation: vibrate 0.5s ease-out;
+}
+@keyframes vibrate {
+  0%, 100% { transform: translateY(0); }
+  15% { transform: translateY(-2px); }
+  30% { transform: translateY(1.6px); }
+  45% { transform: translateY(-1.1px); }
+  60% { transform: translateY(0.7px); }
+  75% { transform: translateY(-0.3px); }
+}
