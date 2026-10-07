@@ -23,7 +23,7 @@ npm run build    # gera /dist
 | Textos da seção Sobre | `src/sections/About/About.tsx` |
 | Imagens dos projetos | coloque em `public/projects/` e use `image: '/projects/arquivo.webp'` |
 
-> Os links de contato (GitHub, LinkedIn, e-mail) ainda são exemplos. Quando publicar este portfólio, adicione o link dele no projeto da 1ª corda.
+> Os links de contato (GitHub, LinkedIn, e-mail) ainda são exemplos.
 
 ## Como a guitarra funciona
 

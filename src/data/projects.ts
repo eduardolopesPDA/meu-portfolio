@@ -66,7 +66,6 @@ export const PROJECTS: Project[] = [
       'Portfólio interativo em que cada corda de uma guitarra 3D abre um projeto, com som de corda sintetizado em tempo real.',
     problem: 'Mostrar quem eu sou unindo as duas coisas que mais gosto: código e música.',
     technologies: ['React', 'TypeScript', 'Three.js', 'Web Audio API', 'Tailwind'],
-    // adicione o link quando publicar no GitHub:
-    // github: 'https://github.com/eduardolopesPDA/<repositorio>',
+    github: 'https://github.com/eduardolopesPDA/meu-portfolio',
   },
 ]
