@@ -5,32 +5,32 @@ import { TabStaff, type TabNote } from '../../components/Tablature/TabStaff'
 const MEASURES: { title: string; text: string; notes: TabNote[] }[] = [
   {
     title: 'Quem sou',
-    text: 'Sou o Eduardo, desenvolvedor full stack. Gosto de construir a aplicação inteira, da tela que a pessoa usa até a API e o banco de dados por trás.',
+    text: 'Sou apaixonado por tecnologia e encontrei na programação um caminho para transformar meu interesse em propósito. Gosto de aprender, criar soluções e enfrentar desafios que me ajudam a evoluir como desenvolvedor',
     notes: [{ line: 2, at: 30, fret: '5' }, { line: 3, at: 62, fret: '7' }],
   },
   {
     title: 'Trajetória',
-    text: 'Comecei estudando lógica e front-end por conta própria e logo quis entender o que acontecia do outro lado. Desde então venho fazendo projetos completos.',
+    text: 'Meu interesse por tecnologia começou nas lan houses do bairro e, com o tempo, virou um projeto de vida. Desde então, venho construindo minha carreira por meio de estudos, projetos práticos e experiências colaborativas.',
     notes: [{ line: 4, at: 20, fret: '3' }, { line: 3, at: 50, fret: '5' }, { line: 2, at: 80, fret: '4' }],
   },
   {
     title: 'Formação',
-    text: 'Estudo Análise e Desenvolvimento de Sistemas, onde aprofundo engenharia de software, banco de dados e boas práticas.',
+    text: 'Concluí o curso de Desenvolvimento Web Full-Stack, com 720 horas, pelo Programadores do Amanhã. Atualmente, curso Análise e Desenvolvimento de Sistemas na UniFECAF e faço uma especialização em Inteligência Artificial.',
     notes: [{ line: 1, at: 40, fret: '8' }],
   },
   {
     title: 'Objetivo',
-    text: 'Quero entrar em um time de produto onde eu possa entregar funcionalidades de ponta a ponta e aprender com pessoas mais experientes.',
+    text: 'Quero transformar conhecimento em projetos reais, criando soluções eficientes, escaláveis e com impacto. Busco continuar evoluindo tecnicamente e conquistar meu espaço na área de tecnologia como desenvolvedor.',
     notes: [{ line: 5, at: 25, fret: '0' }, { line: 4, at: 55, fret: '2' }, { line: 3, at: 85, fret: '2' }],
   },
   {
     title: 'Tecnologia',
-    text: 'Me interesso por interfaces bem feitas e acessíveis, código tipado e APIs simples de usar.',
+    text: 'Desenvolvo projetos com JavaScript, Node.js, Express, React.js, MySQL e Python. Também utilizo Git e GitHub e venho estudando Docker, Kubernetes e conteinerização. Tenho contato com Scrum, Kanban, CI/CD, Machine Learning, NLP e redes neurais..',
     notes: [{ line: 2, at: 35, fret: '9' }, { line: 0, at: 70, fret: '12' }],
   },
   {
     title: 'Música',
-    text: 'Toco guitarra há anos. Ensaiar uma música e escrever código pedem a mesma coisa: repetição, ouvido atento e paciência com os detalhes.',
+    text: 'Toco guitarra há anos. Ensaiar uma música e escrever código pedem a mesma coisa: repetição, foco, ouvido atento e paciência com os detalhes.',
     notes: [{ line: 3, at: 30, fret: '7' }, { line: 2, at: 60, fret: '7' }, { line: 1, at: 85, fret: '5' }],
   },
 ]
